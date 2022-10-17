@@ -14,8 +14,7 @@
     <div class="content">
         <img class="bgimg" id="img1" src="https://raw.githubusercontent.com/meowljane/1014prologue/main/op/op1.png">
         <img class="bgimg" id="img2" src="https://raw.githubusercontent.com/meowljane/1014prologue/main/op/op2.png">
-        <img class="out 버튼" src="https://raw.githubusercontent.com/meowljane/1014prologue/main/op/close_bt.png"
-            onclick="closeWidget()" onmouseover="jelatin()">
+
         <img src="https://raw.githubusercontent.com/meowljane/1014prologue/main/op/next_bt.gif" class="next 버튼"
             onclick="gonext()">
     </div>
@@ -39,14 +38,7 @@
             }, 480)
         }
 
-            function closeWidget() {
-                window.parent.postMessage(
-                    {
-                        type: "close",
-                    },
-                    "*"
-                );
-            }
+
 
 
 
